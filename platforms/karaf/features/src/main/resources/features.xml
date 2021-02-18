@@ -1136,6 +1136,9 @@
     <bundle dependency='true'>mvn:com.google.guava/guava/${google-mail-guava-version}</bundle>
     <bundle>mvn:org.apache.camel/camel-google-mail/${project.version}</bundle>
   </feature>
+  <feature name='camel-google-storage' version='${project.version}' start-level='50'>
+    <bundle>mvn:org.apache.camel/camel-google-storage/${project.version}</bundle>
+  </feature>
   <feature name='camel-grape' version='${project.version}' start-level='50'>
     <feature version='${project.version}'>camel-core</feature>
     <bundle dependency='true'>mvn:org.codehaus.groovy/groovy/${groovy-version}</bundle>
